@@ -52,11 +52,11 @@ return(
 
 
                 <h1>
-                    Profile <span>Generator</span>
+                    Profile <span>Card</span>
                 </h1>
 
                 <p>
-                    Create and personalize your profile.
+                    Create and personalize your profile Card.
                 </p>
 
             </header>
@@ -72,7 +72,7 @@ return(
 
                         <div className="preview-heading">
                             <div>
-                                <h2>Your Profile</h2>
+                                <h2>Your Profile Card</h2>
                                 <p>Profile saved successfully.</p>
                             </div>
 
