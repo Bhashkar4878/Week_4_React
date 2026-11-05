@@ -1,0 +1,225 @@
+
+.app {
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.page-header h1 {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.page-header h1 span {
+    color: #4f46e5;
+}
+
+.page-header p {
+    color: #666;
+    font-size: 15px;
+}
+
+.main-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.profile-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.profile-form h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.description {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+
+.profile-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 18px;
+}
+
+
+
+.profile-form input,
+.profile-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    font-size: 14px;
+    outline: none;
+}
+
+.profile-form input:focus,
+.profile-form textarea:focus {
+    border-color: #4f46e5;
+}
+
+.profile-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+
+.Gen-btn {
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 7px;
+    background-color: #4f46e5;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Gen-btn:hover {
+    background-color: #3730a3;
+}
+
+
+.preview-section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.preview-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.preview-heading h2 {
+    margin-bottom: 6px;
+}
+
+.preview-heading p {
+    color: #777;
+    font-size: 14px;
+}
+
+
+.saved-badge {
+    background-color: #dcfce7;
+    color: #15803d;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.profile-card {
+    text-align: center;
+    padding: 25px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+
+.profile-card h2 {
+    margin-bottom: 7px;
+}
+
+.profile-card h3 {
+    color: #4f46e5;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.profile-card p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.profile-card h4 {
+    margin: 20px 0 12px;
+}
+
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #eef2ff;
+    color: #4338ca;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.edit-btn,
+.delete-btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #2563eb;
+}
+
+.edit-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.delete-btn {
+    background-color: #dc2626;
+}
+
+.delete-btn:hover {
+    background-color: #b91c1c;
+}
+
+@media (max-width: 500px) {
+    .app {
+        padding: 25px 12px;
+    }
+
+    .page-header h1 {
+        font-size: 26px;
+    }
+
+    .profile-form,
+    .preview-section {
+        padding: 20px;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+    }
+}
